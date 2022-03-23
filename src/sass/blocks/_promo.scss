@@ -1,0 +1,40 @@
+.promo{
+    a{
+        text-decoration: none;
+    }
+    background: #050827;
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    padding-top: 28px;
+    color: #fff;
+    &__wrapper{
+        margin: 0 auto;
+
+        background: url(../img/beakground.jpg) center no-repeat;
+
+        width: 100%;
+        &-items{
+            padding-top: 159px;
+            text-align: center;
+        }
+
+    }
+    &__subtitle{
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    &__title{
+        font-size: 47px;
+        padding-bottom: 10px;  
+    }
+    &__text{
+        font-size: 17px;
+        padding-bottom: 38px;
+    }
+    &__btn{
+        @include btn;
+        &_wrapper{
+            padding-bottom: 172px;
+        }
+    }
+}
