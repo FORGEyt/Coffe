@@ -1,0 +1,35 @@
+.MoreProduct{
+    padding-top: 102px;
+    
+    &__title{
+        text-align: center;
+    }
+    &__wrapper{
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        grid-template-columns: repeat(3, 300px);
+        padding-top: 100px;
+    }
+    &__cup{
+        text-align: center;
+        padding-top: 65px;
+        &-img{
+            width: 300px;
+            height: 380px;
+            img{
+                width: 100%;
+            }
+        }
+        &-name{
+            padding-top: 35px;
+        }
+        &-cost{
+            padding-top: 5px;
+        }
+        &-sale{
+            color:grey;
+            text-decoration: line-through;
+        }
+    }
+}

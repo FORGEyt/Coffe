@@ -1,3 +1,6 @@
+*{
+    font-family: 'Karla', sans-serif;
+}
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/bootstrap-grid.min.scss';
 
@@ -5,3 +8,6 @@
 
 @import'blocks/header';
 @import'blocks/promo';
+@import'blocks/about';
+@import'blocks/TopProduct';
+@import'blocks/MoreProduct';
