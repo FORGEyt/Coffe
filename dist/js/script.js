@@ -1,13 +1,13 @@
-const hamburger = document.querySelector('.hamburger'),
-      menu = document.querySelector('.menu'),
-      closeElem = document.querySelector('.menu__close');
+const hamburger = document.querySelector('.header__hamburger'),
+      menu = document.querySelector('.header__overlay'),
+      closeElem = document.querySelector('.header__overlay_close');
 
 hamburger.addEventListener('click', () => {
-    menu.classList.add('active');
+    menu.classList.add('view');
 });
 
 closeElem.addEventListener('click', () => {
-    menu.classList.remove('active');
+    menu.classList.remove('view');
 });
 
 const counters = document.querySelectorAll('.skills__ratings-counter'),

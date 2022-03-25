@@ -1,0 +1,51 @@
+@media (min-width : 993px){
+    .header{
+        &__hamburger{
+            display: none;
+        }
+    }
+}
+
+@media (max-width : 992px){
+    .header{
+        &__list{
+            display: none;
+            &-item{
+                padding-right: 20px;
+            }
+        }
+        &__cart{
+            display: none;
+        }
+        &__nav{
+            justify-content: space-between;
+        }
+    }
+    .promo{
+            width: 100%;
+    }
+    .TopProduct{
+        &__wrapper{
+            grid-template-columns: 460px;
+        }
+    }
+    .MoreProduct{
+        &__wrapper{
+            grid-template-columns: 300px;
+        }
+    }
+}
+
+@media (max-width : 425px){
+    .TopProduct{
+        &__wrapper{
+            grid-template-columns: 300px;
+        }
+        &__cup{
+            &-img{
+                width: 300px;
+                margin: 0 auto;
+            }
+        }
+    }
+}

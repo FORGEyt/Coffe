@@ -13,6 +13,7 @@
 <body>
     <header class="header">
         <div class="container">
+
             <nav class="header__nav">
                 <div class="header__logo"><img src="icons/logo.png" alt=""></div>
                 <ul class="header__list">
@@ -23,6 +24,8 @@
                     <a href="#"><li class="header__list-item">Contact</li></a>
                     <a href="#"><li class="header__list-item">Styleguide</li></a>
                 </ul>
+
+
                 <div class="header__cart">
                     <div class="header__cart-item">
                         <img src="icons/cart.png" alt="">
@@ -30,7 +33,30 @@
                         <span class="header__cart-count">0</span>
                     </div>
                 </div>
+
+
+                <div class="header__hamburger">
+                    <span class="header__hamburger-first"></span>
+                    <span class="header__hamburger-second"></span>
+                    <span class="header__hamburger-there"></span>
+                </div>
             </nav>
+        </div>
+        <div class="header__overlay">
+            <span class="header__overlay_close">
+                <span class="header__overlay_close-first"></span>
+                <span class="header__overlay_close-second"></span>
+            </span>
+            <ul class="header__overlay_list">
+                
+                <li ></li>
+                <a href="#"><li class="header__overlay_list-item">Home</li></a>
+                <a href="#"><li class="header__overlay_list-item">Our Products</li></a>
+                <a href="#"><li class="header__overlay_list-item">Blog</li></a>
+                <a href="#"><li class="header__overlay_list-item">Contact</li></a>
+                <a href="#"><li class="header__overlay_list-item">Styleguide</li></a>
+                <li class="header__overlay_list-item"></li>
+            </ul>
         </div>
     </header>
 
@@ -64,13 +90,17 @@
             <div class="TopProduct__title">Featured Mugs</div>
             <div class="TopProduct__wrapper">
                 <div class="TopProduct__cup">
-                    <img src="img/PinkPremium.png" alt="">
+                    <div class="TopProduct__cup-img">
+                        <img src="img/PinkPremium.png" alt="">
+                    </div>
                     <div class="TopProduct__cup-name">Pink Premium Ceramic</div>
                     <div class="TopProduct__cup-cost">$ 99.00 USD</div>
                 </div>
 
                 <div class="TopProduct__cup">
-                    <img src="img/GoldenCup.png" alt="">
+                    <div class="TopProduct__cup-img">
+                        <img src="img/GoldenCup.png" alt="">
+                    </div>
                     <div class="TopProduct__cup-name">Pink Premium Ceramic</div>
                     <div class="TopProduct__cup-cost">$ 50.00 USD</div>
                     <div class="TopProduct__cup-sale">$ 99.00 USD</div>
@@ -156,5 +186,31 @@
             </div>
         </div>
     </section>
+
+    <section class="present">
+        <div class="container">
+            <div class="present__title">Buy 2 mugs and get a coffee magazine free</div>
+            <div class="present__wrapper">
+                <div class="present__picture">
+                    <img class="present__picture-first" src="img/copybook.png" alt="">
+                    <div class="present__picture-right">
+                        <img class="present__picture-second" src="img/CoffeAndHend.png" alt="">
+                        <img class="present__picture-third" src="img/cup.png" alt="">
+                    </div>
+                </div>
+                <div class="present__content">
+                    <div class="present__content-title">PREMIUM OFFER</div>
+                    <div class="present__content-subtitle">Get our Coffee Magazine</div>
+                    <div class="present__content-text">The most versatile furniture system ever created. Designed to fit your life.</div>
+                    <a href=""><span class="present__content-btn">Start Shopping</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="line">
+        <div><img src="img/FotoLine.png" alt=""></div>
+    </section>
 </body>
+<script src="js/script.js"></script>
 </html>     

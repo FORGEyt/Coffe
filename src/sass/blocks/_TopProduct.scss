@@ -13,6 +13,12 @@
     }
     &__cup{
         text-align: center;
+        &-img{
+            width: 460px;
+            img{
+                width: 100%;
+            }
+        }
         &-name{
             padding-top: 35px;
         }

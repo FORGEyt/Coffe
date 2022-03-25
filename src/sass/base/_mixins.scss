@@ -5,3 +5,10 @@
     font-weight: bold;
     
 }
+@mixin black_btn{
+    padding: 8px 24px 7px 24px;
+    background:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
